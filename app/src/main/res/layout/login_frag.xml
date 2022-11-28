@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:paddingStart="10dp"
+        android:background="@drawable/bg_edittext"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_edittext"
+        android:paddingStart="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/frgtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="@drawable/bg_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="150dp"/>
+
+
+
+</LinearLayout>
